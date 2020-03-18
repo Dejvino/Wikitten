@@ -44,6 +44,10 @@ if (!defined('PASTEBIN_API_KEY')) {
     define('PASTEBIN_API_KEY', false);
 }
 
+if (!defined('ALLOW_EVERYONE_VIEW')) {
+    define('ALLOW_EVERYONE_VIEW', false);
+}
+
 if (!defined('EXTERNAL_LINK_TARGET')) {
     define('EXTERNAL_LINK_TARGET', '_blank');
 }
